@@ -16,6 +16,6 @@ public class EventDto {
     private long id;
     private String name;
     private BigDecimal price;
-    private LocalDateTime from;
-    private LocalDateTime to;
+    private LocalDateTime fromTime;
+    private LocalDateTime toTime;
 }

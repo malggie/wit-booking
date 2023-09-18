@@ -22,8 +22,8 @@ public class EventService {
             result.add(EventDto.builder()
                     .name(event.getItem().getName())
                     .price(event.getItem().getPrice())
-                    .from(event.getFrom())
-                    .to(event.getTo())
+                    .fromTime(event.getFrom())
+                    .toTime(event.getTo())
                     .build());
         }
         return result;
